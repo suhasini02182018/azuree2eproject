@@ -1,0 +1,9 @@
+{
+	"name": "azuree2eproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4dfcf47a-d9de-4447-80de-5b336a2d635b",
+		"tenantId": "521a559a-c492-4c21-991b-5aa028a31fbd"
+	}
+}
