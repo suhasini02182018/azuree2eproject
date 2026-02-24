@@ -61,7 +61,12 @@
 					},
 					"dataset": {
 						"referenceName": "DS_Json",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "bronze",
+							"folder": "cdc",
+							"file": "cdc.json"
+						}
 					}
 				}
 			}
