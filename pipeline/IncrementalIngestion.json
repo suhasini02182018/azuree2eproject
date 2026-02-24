@@ -140,7 +140,8 @@
 				"defaultValue": "DimUser"
 			},
 			"cdc_col": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "updated_at"
 			}
 		},
 		"variables": {
