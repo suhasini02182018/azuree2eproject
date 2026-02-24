@@ -59,7 +59,12 @@
 				"inputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schema": "dbo",
+							"table": "DimUser",
+							"cdc_col": "updated_at"
+						}
 					}
 				],
 				"outputs": [
