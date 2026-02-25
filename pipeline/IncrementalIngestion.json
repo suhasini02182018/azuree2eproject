@@ -137,6 +137,8 @@
 			{
 				"name": "Update_ts",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "max_cdc",
